@@ -10,3 +10,9 @@ exports.printFriendlyMsg = function(){
     console.log("I'm here in sub module, and I'm happy");
 }
 
+exports.printNumberList = function (suffix) {
+    for(let i = 0; i < 10; i++){
+        console.log(i + suffix);
+    }
+}
+
