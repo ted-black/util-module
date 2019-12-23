@@ -5,3 +5,6 @@ exports.printMsg = function() {
 for(let i = 0; i < 10; i++){
     console.log(i + ", is a great number....;^)");
 }
+
+
+console.log("I'm here in sub module, and I'm happy");
