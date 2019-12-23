@@ -6,5 +6,7 @@ for(let i = 0; i < 10; i++){
     console.log(i + ", is a great number....;^)");
 }
 
+exports.printFriendlyMsg = function(){
+    console.log("I'm here in sub module, and I'm happy");
+}
 
-console.log("I'm here in sub module, and I'm happy");
